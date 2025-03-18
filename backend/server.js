@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const dotenv = require('dotenv');
 const productRoutes = require('../scripts/routes/product.route');
 const path = require('path');
