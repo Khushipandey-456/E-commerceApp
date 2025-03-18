@@ -44,4 +44,51 @@ body {
   button:hover {
     background-color: #216b88;
   }
+  #form {
+    width: 50%;
+    height: 400px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    border:2px solid black;
+
+}
+#form input {
+    height: 20px;
+    width: 50%;
+    color: rgb(43, 41, 41);
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+h3 {
+    font-size: 2rem;
+    background-color: white;
+}
+select {
+    height: 20px;
+    width: 80%;
+    background-color: white;
+
+}
+
+#submit {
+    width: 50px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+#submit:hover {
+    background-color: rgb(165, 80, 245);
+    transition: background-color 1s ease;
+}
   
