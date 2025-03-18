@@ -6,7 +6,7 @@ form.addEventListener("submit", function () {
     let password = form.password.value;
 
     /// logic is check whether email is present in the DB
-    fetch(`${baseUrl}/users`)
+    fetch(`mongodb://127.0.0.1:27017/e-commerceApp/users`)
         .then((res) => res.json())
         .then((data) => {
             let user = data.filter((el, i) => el.email == email);
